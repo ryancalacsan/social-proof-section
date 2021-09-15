@@ -1,0 +1,27 @@
+.reviews {
+    margin-bottom: 49px;
+
+    &__card {
+        background-color: $lightGrayishMagenta;
+        text-align: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+        border-radius: 8px;
+    }
+
+    &__stars {
+        margin-bottom: 16px;
+
+        img:not(:last-of-type) {
+            margin-right: 8.45px;
+        }
+    }
+
+    &__rating {
+        color: $veryDarkMagenta;
+        font-size: 13px;
+        font-weight: $bold;
+        line-height: 15px;
+    }
+}

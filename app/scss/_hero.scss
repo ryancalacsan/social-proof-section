@@ -1,0 +1,20 @@
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+
+    &__title {
+        color: $veryDarkMagenta;
+        font-size: 32px;
+        font-weight: $bold;
+        line-height: 32px;
+        letter-spacing: -1.14px;
+        margin-bottom: 18px;
+    }
+
+    &__text {
+        color: $darkGrayishMagenta;
+        font-weight: $medium;
+        line-height: 25px;
+        letter-spacing: -0.5px;
+    }
+}

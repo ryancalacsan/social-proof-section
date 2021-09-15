@@ -1,0 +1,136 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
+  background-position: top, bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 80px 24px 100px 24px;
+  padding: 0;
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+main {
+  max-width: 540px;
+  margin: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero__title {
+  color: #502050;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -1.14px;
+  margin-bottom: 18px;
+}
+
+.hero__text {
+  color: #937b92;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: -0.5px;
+}
+
+.reviews {
+  margin-bottom: 49px;
+}
+
+.reviews__card {
+  background-color: #f7f2f7;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.reviews__stars {
+  margin-bottom: 16px;
+}
+
+.reviews__stars img:not(:last-of-type) {
+  margin-right: 8.45px;
+}
+
+.reviews__rating {
+  color: #502050;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.testimonies__card {
+  background-color: #502050;
+  padding: 40px 32px 32px 32px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.testimonies__header {
+  margin-bottom: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testimonies__img {
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 23px;
+}
+
+.testimonies__name {
+  color: white;
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 5px;
+}
+
+.testimonies__title {
+  color: #ee68a4;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.testimonies__text {
+  color: white;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: -0.26px;
+}
+/*# sourceMappingURL=style.css.map */
