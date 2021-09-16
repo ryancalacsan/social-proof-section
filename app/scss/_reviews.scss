@@ -1,27 +1,62 @@
 .reviews {
-    margin-bottom: 49px;
+    margin-bottom: 3.0625rem;
+    @include breakpoint-up(large) {
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 33.75rem;
+    }
 
     &__card {
         background-color: $lightGrayishMagenta;
         text-align: center;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        margin-bottom: 16px;
-        border-radius: 8px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 0.5rem;
+
+        @include breakpoint-up(large) {
+            width: 27.8125rem;
+            display: flex;
+            align-items: center;
+            padding-top: 1.25rem;
+            padding-bottom: 1.25rem;
+            margin-bottom: 0;
+
+            &.rev1 {
+                margin-bottom: 1rem;
+            }
+
+            &.rev2 {
+                align-self: center;
+                margin-bottom: 1rem;
+            }
+
+            &.rev3 {
+                align-self: flex-end;
+            }
+        }
     }
 
     &__stars {
-        margin-bottom: 16px;
+        margin-bottom: 1rem;
+
+        @include breakpoint-up(large) {
+            margin-bottom: 0;
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
 
         img:not(:last-of-type) {
-            margin-right: 8.45px;
+            margin-right: 0.5281rem;
         }
     }
 
     &__rating {
         color: $veryDarkMagenta;
-        font-size: 13px;
+        font-size: 0.8125rem;
         font-weight: $bold;
-        line-height: 15px;
+        line-height: 0.9375rem;
     }
 }

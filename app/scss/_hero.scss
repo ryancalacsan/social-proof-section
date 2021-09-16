@@ -1,20 +1,33 @@
 .hero {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
+
+    @include breakpoint-up(large) {
+        text-align: left;
+        margin-bottom: 0;
+        max-width: 27.8125rem;
+    }
 
     &__title {
         color: $veryDarkMagenta;
-        font-size: 32px;
+        font-size: 2rem;
         font-weight: $bold;
-        line-height: 32px;
-        letter-spacing: -1.14px;
-        margin-bottom: 18px;
+        line-height: 2rem;
+        letter-spacing: -0.0712rem;
+        margin-bottom: 1.125rem;
+
+        @include breakpoint-up(large) {
+            font-size: 3rem;
+            line-height: 3rem;
+            margin-bottom: 0.875rem;
+            letter-spacing: -0.1069rem;
+        }
     }
 
     &__text {
         color: $darkGrayishMagenta;
         font-weight: $medium;
-        line-height: 25px;
-        letter-spacing: -0.5px;
+        line-height: 1.5625rem;
+        letter-spacing: -0.0313rem;
     }
 }
